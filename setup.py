@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'google_ngram_api',         
   packages = ['google_ngram_api'],   
-  version = '1.0',      
+  version = '1.1',      
   license='MIT',        
   description = 'API to download google ngram data as csv file',   
   author = 'Venkatesh Prasad',                   
@@ -13,8 +13,6 @@ setup(
   install_requires=[            
           'pandas',
           'requests',
-          'gzip',
-          're',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      
