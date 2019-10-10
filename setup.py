@@ -8,7 +8,7 @@ setup(
   author = 'Venkatesh Prasad',                   
   author_email = 'prasad.venkatesh90@gmail.com',      
   url = 'https://github.com/prasa-dd-vp/google_ngram_api',   
-  download_url = 'https://github.com/prasa-dd-vp/Google-Ngram-API/archive/v_01.tar.gz',    
+  download_url = 'https://github.com/prasa-dd-vp/google_ngram_api/archive/v_01.tar.gz',    
   keywords = ['google', 'googlengram', 'api', 'csvdownloader', 'ngramdata', 'googledata', 'csv', 'downlader'],   
   install_requires=[            
           'pandas',
