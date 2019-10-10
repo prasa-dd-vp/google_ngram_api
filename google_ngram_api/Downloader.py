@@ -4,6 +4,7 @@ import gzip
 import requests
 
 class Downloader:
+    @staticmethod
     def download_full_csv(language, n, alphabet):
         try:
             url = "http://storage.googleapis.com/books/ngrams/books/googlebooks-"+language+"-all-"+n+"gram-20120701-"+alphabet+".gz"
@@ -28,7 +29,8 @@ class Downloader:
                         +'\n') 
         except:
             print("Error while downloading file")
-        
+    
+    @staticmethod
     def download_match_count_csv(language, n, alphabet):
         try:
             url = "http://storage.googleapis.com/books/ngrams/books/googlebooks-"+language+"-all-"+n+"gram-20120701-"+alphabet+".gz"
