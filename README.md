@@ -48,6 +48,20 @@ The language code for the following languages are:
 n represents the 'N' in Ngrams. Possible numbers are 1,2,3,4 and 5. 
 #### 3. alphabet
 alphabet represents the ngram dataset associated with that alphabet.
+
+Example,
+```python
+#Importing the package
+from google_ngram_api.Downloader import Downloader
+
+#Creating the object
+downloader = Downloader()
+
+#Calling the functions using the object created
+downloader.download_full_csv('eng','1','a')
+downloader.download_match_count_csv('eng','1','a')
+
+```
 ## License
 MIT License
 Copyright (c) 2018 Venkatesh Prasad
